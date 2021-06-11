@@ -1,0 +1,149 @@
+/*header styles*/
+  header {
+    background-color: #D7C9D6;
+  }
+  body {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .logo {
+    width: 300px;
+    border-radius: 20px;
+    margin: 20px 10px 0 20px;
+    display: inline-block
+  }
+
+h1 {
+  display: inline-block;
+  color: #871C64;
+  font-family: 'Pacifico', cursive;
+  font-size: 40pt;
+  margin: 0;
+}
+
+/* Add a  background color to the top navigation */
+  .topnav {
+    background-color: #871C64;
+    overflow: hidden;
+    padding: 5px;
+  }
+
+/* Style the links inside the navigation bar */
+  .topnav a {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 30pt;
+    font-family: 'Shadows Into Light', cursive;
+  }
+  .topnav li+li:before {
+    padding: 8px;
+    color: white;
+    content: "|";
+  }
+  .topnav li{
+    display: inline;
+  }
+/* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #D7C9D6;
+    color: black;
+  }
+
+/*bodystyle*/
+    h2, h3 {
+      color: #871C64;
+      font-family: 'Pacifico', cursive;
+      font-size: 25pt;
+      margin: 5px;
+    }
+  
+/* Ensure proper sizing */
+    * {
+      box-sizing: border-box;
+    }
+/* Column container */
+      .row { 
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Handlee', cursive;
+        font-size: 18pt;
+        margin-bottom: 15px;
+      }
+      /* Left column */
+      .left {
+        flex: 50%; 
+        background-color: #CBCA87; 
+        padding: 20px; 
+      }
+      /* Right column */
+      .right { 
+        flex: 50%; 
+        background-color: #A29EC3; 
+        padding: 20px; 
+      }
+
+p {
+  font-family: 'Handlee', cursive;
+  font-size: 20pt;
+  margin: auto;
+  text-align: justify;
+  padding: 5px;
+}
+/*footerstyle*/
+  footer {
+      background-color: #871C64;
+      color: white;
+      font-family: 'Handlee', cursive;
+      font-size: 15pt;
+      padding: 3px;
+  }
+  a,i{
+    color: white;
+  }
+
+/*botones galeria*/
+  button:hover {
+    background-color: #D7C9D6 !important;
+    color: black;
+  }
+  button {
+    background-color: #871C64;
+    color: white;
+    font-size: 20pt;
+    font-family: 'Shadows Into Light', cursive;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 5px;
+  }
+
+#perfil {
+    width: 200px;
+    float: left;
+    margin: 0 15px 15px 0;
+    border-radius: 2px;
+  }
+
+/*estilos galeria*/
+    #paseos,#mascotas {
+      display: none;
+    }
+    #gallery img{
+      width: 300px;
+      height: 300px;
+      border-radius: 2px;
+    }
+    .img-card {
+      display: inline-block;
+      margin: 15px 5px 15px 5px;
+    }
+    .img-card img:hover {
+      transform: scale(1.1);
+    }
+  
+
+
+ 
+  
+    
