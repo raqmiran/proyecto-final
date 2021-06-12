@@ -83,6 +83,9 @@ h1 {
         background-color: #A29EC3; 
         padding: 20px; 
       }
+      #list {
+        list-style: none;
+      }
 
 p {
   font-family: 'Handlee', cursive;
@@ -144,6 +147,10 @@ p {
     #read-more-content {
       display: none;
     }
+
+
+
+
 
 
  
