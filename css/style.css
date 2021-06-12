@@ -141,7 +141,9 @@ p {
     .img-card img:hover {
       transform: scale(1.1);
     }
-  
+    .read-more-content {
+      display: none;
+    }
 
 
  
