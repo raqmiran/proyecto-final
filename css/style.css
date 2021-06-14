@@ -6,7 +6,6 @@
     max-width: 1280px;
     margin: 0 auto;
   }
-
   .logo {
     width: 300px;
     border-radius: 20px;
@@ -45,6 +44,7 @@ h1 {
   .topnav li{
     display: inline;
   }
+
 /* Change the color of links on hover */
   .topnav a:hover {
     background-color: #D7C9D6;
@@ -52,40 +52,42 @@ h1 {
   }
 
 /*bodystyle*/
-    h2, h3 {
-      color: #871C64;
-      font-family: 'Pacifico', cursive;
-      font-size: 25pt;
-      margin: 5px;
-    }
+  h2, h3 {
+    color: #871C64;
+    font-family: 'Pacifico', cursive;
+    font-size: 25pt;
+    margin: 5px;
+  }
+   
   
 /* Ensure proper sizing */
-    * {
-      box-sizing: border-box;
-    }
+  * {
+    box-sizing: border-box;
+  }
+
 /* Column container */
-      .row { 
-        display: flex;
-        flex-wrap: wrap;
-        font-family: 'Handlee', cursive;
-        font-size: 18pt;
-        margin-bottom: 15px;
-      }
-      /* Left column */
-      .left {
-        flex: 50%; 
-        background-color: #CBCA87; 
-        padding: 20px; 
-      }
-      /* Right column */
-      .right { 
-        flex: 50%; 
-        background-color: #A29EC3; 
-        padding: 20px; 
-      }
-      #list {
-        list-style: none;
-      }
+    .row { 
+      display: flex;
+      flex-wrap: wrap;
+      font-family: 'Handlee', cursive;
+      font-size: 18pt;
+      margin-bottom: 15px;
+    }
+    /* Left column */
+    .left {
+      flex: 50%; 
+      background-color: #CBCA87; 
+      padding: 20px; 
+    }
+    /* Right column */
+    .right { 
+      flex: 50%; 
+      background-color: #A29EC3; 
+      padding: 20px; 
+    }
+    #list {
+      list-style: none;
+    }
 
 p {
   font-family: 'Handlee', cursive;
@@ -94,6 +96,7 @@ p {
   text-align: justify;
   padding: 5px;
 }
+
 /*footerstyle*/
   footer {
       background-color: #871C64;
@@ -103,9 +106,14 @@ p {
       padding: 3px;
   }
   a,i{
+    display: inline;
     color: white;
   }
-
+  .iconosnav i:hover {
+    transform: scale(1.3);
+    color: #D7C9D6;
+  }
+  
 /*botones galeria*/
   button:hover {
     background-color: #D7C9D6 !important;
@@ -129,24 +137,24 @@ p {
   }
 
 /*estilos galeria*/
-    #paseos,#mascotas {
-      display: none;
-    }
-    #gallery img{
-      width: 300px;
-      height: 300px;
-      border-radius: 2px;
-    }
-    .img-card {
-      display: inline-block;
-      margin: 15px 5px 15px 5px;
-    }
-    .img-card img:hover {
-      transform: scale(1.1);
-    }
-    #read-more-content {
-      display: none;
-    }
+  #paseos,#mascotas {
+    display: none;
+  }
+  #gallery img{
+    width: 300px;
+    height: 300px;
+    border-radius: 2px;
+  }
+  .img-card {
+    display: inline-block;
+    margin: 15px 5px 15px 5px;
+  }
+  .img-card img:hover {
+    transform: scale(1.1);
+  }
+  #read-more-content {
+    display: none;
+  }
 
 
 
